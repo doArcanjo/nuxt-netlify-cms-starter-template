@@ -5,11 +5,11 @@
   "main": "meta.js",
   "private": true,
   "directories": {
-    "test": "test",
-    "generate": "nuxt generate"
+    "test": "test"
   },
   "scripts": {
-    "test": "vue init . test && cd test && npm install"
+    "test": "vue init . test && cd test && npm install",
+     "generate": "nuxt generate"
   },
   "repository": {
     "type": "git",

@@ -5,7 +5,8 @@
   "main": "meta.js",
   "private": true,
   "directories": {
-    "test": "test"
+    "test": "test",
+    "generate": "nuxt generate"
   },
   "scripts": {
     "test": "vue init . test && cd test && npm install"
